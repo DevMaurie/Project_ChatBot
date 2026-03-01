@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(243, 238, 224);
+    font-family:  "Red Hat Display", sans-serif;
+    margin-top:0px; 
+    margin-bottom:0px; 
+}
+
+h1{
+   color: rgb(110, 2, 111);
+    font-family: "Betania Patmos", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.send-button{
+    background-color:rgb(171, 218, 220);
+    color:white;
+    border-radius: 7px;
+    border-color: rgb(171, 218, 220);
+    padding: 12px 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.text-box{
+    border-radius: 7px;
+    border-color: rgb(171, 218, 220);
+    border-width: 1px;
+    padding: 12px 20px;
+    font-size: 15px;
+    outline:none; /* for outline on focus/typing*/
+    background-color: rgb(250, 248, 243);
+}
+
+.chat-input-container{
+    display: flex;
+    margin-bottom:60px;
+}
+
+
+.app-container{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    height:85vh ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.chat-message-user{
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.chat-message-bot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.chat-message-profile{
+    width:45px;
+
+}
+.chat-message-text{
+    background-color:rgb(247, 179, 110);
+    border-radius: 7px;
+    border-color: rgb(248, 183, 118);
+    padding: 12px 20px;
+    font-size: 15px;
+    color:white;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.chat-messages-container{
+    flex-grow: 1;
+    margin-top:20px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
