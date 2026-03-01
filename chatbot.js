@@ -1,6 +1,6 @@
 const Chatbot = {
   defaultResponses: {
-    'hello Hello': `Hello! How can I help you?`,
+    'hello Hello hey Hey': `Hello! How can I help you?`,
     'hi Hi':`Hello! How can I help you?`,
     //'how are you?': `I'm doing great! How can I help you?`,
     'flip a coin': function () {
@@ -31,7 +31,7 @@ const Chatbot = {
         const localTime = now.toLocaleTimeString(); 
         return `It is ${localTime}`; 
     },
-    'creator, who made you': function (){
+    'create, made': function (){
         return ("I'm made by Dev Maurie!");
     },
     'thank': 'No problem! Let me know if you need help with anything else!',
