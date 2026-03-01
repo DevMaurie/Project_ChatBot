@@ -1,3 +1,5 @@
+// This is a simple chatbot used for SuperSimpleDev bootcamp
+
 const Chatbot = {
   defaultResponses: {
     'hello Hello hey Hey': `Hello! How can I help you?`,
